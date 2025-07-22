@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paridarshan Sahoo</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Custom Cursor -->
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+    
+    <!-- Particle System -->
+    <canvas id="particleCanvas"></canvas>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">darshanPC</span>
+                <div class="logo-glow"></div>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link" data-text="Home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link" data-text="About">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link" data-text="Skills">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link" data-text="Projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#experience" class="nav-link" data-text="Experience">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link" data-text="Contact">Contact</a>
+                </li>
+            </ul>
+            <div class="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="matrix-rain"></div>
+            <div class="hero-glow"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <div class="hero-greeting">
+                        <span class="typing-cursor">></span>
+                        <span class="greeting-text">Hello, I'm</span>
+                    </div>
+                    <h1 class="hero-name">
+                        <span class="name-text">Paridarshan Sahoo</span>
+                        <div class="name-glow"></div>
+                    </h1>
+                    <h2 class="hero-title">
+                        <span class="title-gradient">Data Scientist & Big Data Engineer</span>
+                    </h2>
+                    <p class="hero-subtitle">Where Data Meets Purpose</p>
+                    <p class="hero-bio">With a strong foundation in big data ecosystems and real-time analytics. Skilled in technologies like Hadoop, Spark, Hive, and Python, I focus on building scalable, efficient data pipelines and ML workflows</p>
+                    <div class="hero-stats">
+                        <!-- <div class="stat-item">
+                            <div class="stat-number">5+</div>
+                            <div class="stat-label">Years Experience</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">60%</div>
+                            <div class="stat-label">Energy Reduction</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">100+</div>
+                            <div class="stat-label">AI Models</div>
+                        </div> -->
+                    </div>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn--primary magnetic">
+                            <span class="btn-text">Get In Touch</span>
+                            <div class="btn-particles"></div>
+                        </a>
+                        <a href="#projects" class="btn btn--outline magnetic">
+                            <span class="btn-text">View Projects</span>
+                        </a>
+                        <a href="assert/Resume 4.0 (Big Data Science).pdf" class="btn btn--primary magnetic">
+                            <span class="btn-text">My Resume</span>
+                            <div class="btn-particles"></div>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="code-terminal">
+                        <div class="terminal-header">
+                            <div class="terminal-buttons">
+                                <span class="btn-close"></span>
+                                <span class="btn-minimize"></span>
+                                <span class="btn-maximize"></span>
+                            </div>
+                            <div class="terminal-title">intro.py</div>
+                        </div>
+                        <div class="terminal-body">
+                            <div class="code-lines"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Data Scientist & Big Data Engineer</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="glass-card">
+                        <div class="card-glow"></div>
+                        <p class="about-description">My name is Paridarshan Sahoo, a B.Tech student in Computer Science and Engineering (Data Science) at Maharana Pratap Engineering College, Kanpur. I have strong technical proficiency in Python, C, C++, and Java and hands-on experience with core Big Data technologies like Hadoop, Spark, Hive, and HBase. My academic and practical background also covers data structures, algorithms, machine learning, and data analysis.</p>
+                        <div class="about-highlights">
+                            <div class="highlight-item">
+                                <div class="highlight-icon">🌱</div>
+                                <div class="highlight-content">
+                                    <h4>Big Data Enthusiast</h4>
+                                    <p>Designing scalable data pipelines using Hadoop and its ecosystem to process and manage large-scale datasets efficiently.</p>
+                                </div>
+                            </div>
+                            <div class="highlight-item">
+                                <div class="highlight-icon">🎯</div>
+                                <div class="highlight-content">
+                                    <h4>Data-Driven Optimizer</h4>
+                                    <p>Specializing in extracting insights from unstructured data using tools like Hive, Spark, and Python for better decision-making and business impact.</p>
+                                </div>
+                            </div>
+                            <div class="highlight-item">
+                                <div class="highlight-icon">🚀</div>
+                                <div class="highlight-content">
+                                    <h4>AI & Analytics Explorer</h4>
+                                    <p>Exploring real-world applications of machine learning and NLP to solve challenges in sentiment analysis, user behavior, and automation.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <span class="contact-icon">📧</span>
+                                <span class="contact-text">goodparidarshan@gmail.com</span>
+                            </div>
+                            <div class="contact-item">
+                                <span class="contact-icon">📍</span>
+                                <span class="contact-text">Kanpur, Uttar Pradesh</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-visual">
+                    <div class="eco-visualization">
+                        <div class="eco-circles">
+                            <div class="eco-circle eco-circle-1"></div>
+                            <div class="eco-circle eco-circle-2"></div>
+                            <div class="eco-circle eco-circle-3"></div>
+                        </div>
+                        <div class="eco-connections"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Technical Expertise</h2>
+                <p class="section-subtitle">Technologies driving Big Data solutions</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3 class="category-title">Technical Skills</h3>
+                    <div class="skill-list"></div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="category-title">Analytics</h3>
+                    <div class="analytics-list"></div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="category-title">Big Data Tools</h3>
+                    <div class="bd-list"></div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="category-title">Certifications</h3>
+                    <div class="cert-list"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">Real World solutions making real impact</p>
+            </div>
+            <div class="projects-grid"></div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Education Timeline</h2>
+                <p class="section-subtitle">Journey through Education</p>
+            </div>
+            <div class="timeline"></div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Let's Connect</h2>
+                <p class="section-subtitle">Ready to build impactful data-driven solutions together?</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-form-container">
+                    <form class="contact-form glass-card" id="contactForm">
+                        <div class="card-glow"></div>
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" class="form-control" placeholder="Your Name" required>
+                            <div class="input-glow"></div>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" class="form-control" placeholder="Your Email" required>
+                            <div class="input-glow"></div>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" class="form-control" placeholder="Subject" required>
+                            <div class="input-glow"></div>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" class="form-control" placeholder="Your Message" rows="5" required></textarea>
+                            <div class="input-glow"></div>
+                        </div>
+                        <button type="submit" class="btn btn--primary btn--full-width magnetic">
+                            <span class="btn-text">Send Message</span>
+                            <div class="btn-particles"></div>
+                        </button>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <div class="glass-card">
+                        <div class="card-glow"></div>
+                        <h3>Let’s collaborate on Big Data & AI projects</h3>
+                        <p>Passionate about data engineering, analytics, and AI? <b>Let’s connect to build scalable, insightful, and intelligent solutions together.</p>
+                        <div class="contact-methods">
+                            <div class="contact-method">
+                                <span class="method-icon">💬</span>
+                                <span class="method-text">Quick Response</span>
+                            </div>
+                            <div class="contact-method">
+                                <span class="method-icon">🧠</span>
+                                <span class="method-text">Data-Driven Focus</span>
+                            </div>
+                            <div class="contact-method">
+                                <span class="method-icon">🛠️</span>
+                                <span class="method-text">End-to-End Solutions</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Paridarshan Sahoo. All Rights Reserved</p>
+                <div class="footer-links">
+                    <a href="mailto:goodparidarshan@gmail.com" target="_blank" class="footer-link magnetic">Email</a>
+                    <a href="https://linkedin.com/in/darshanpc" target="_blank" class="footer-link magnetic">LinkedIn</a>
+                    <a href="https://github.com/darshanpc25" target="_blank" class="footer-link magnetic">GitHub</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+
+    <!-- Load EmailJS -->
+<script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script>
+    // Initialize EmailJS with your public key
+    emailjs.init("nh3VrzZdc6HFdEcvq"); // e.g., "DxuHbS8yS9V9hxxxx"
+
+    document.getElementById("contactForm").addEventListener("submit", function(e) {
+        e.preventDefault();
+
+        emailjs.sendForm("darshanPC_portfolio", "template_jzs1dqj", this)
+            .then(() => {
+                // alert("Message sent successfully!");
+                document.getElementById("contactForm").reset();
+            }, (error) => {
+                alert("Failed to send message. " + JSON.stringify(error));
+            });
+    });
+</script>
+
+
+</body>
+</html>
