@@ -23,8 +23,8 @@ const portfolioData = {
     analytics: [
       {"name": "Data Visualization", "level": 94, "icon": "📊", "color": "#00ff88"},
       {"name": "Statistical Analysis", "level": 91, "icon": "📈", "color": "#32cd32"},
-      {"name": "A/B Testing", "level": 87, "icon": "⚗️", "color": "#40e0d0"},
-      {"name": "Time Series", "level": 89, "icon": "⏰", "color": "#00ff88"}
+      // {"name": "A/B Testing", "level": 87, "icon": "⚗️", "color": "#40e0d0"},
+      // {"name": "Time Series", "level": 89, "icon": "⏰", "color": "#00ff88"}
     ],
     bigdata: [
       {"name": "Apache Hadoop", "level": 80, "icon": "🐘", "color": "#00ff88"},
@@ -80,14 +80,14 @@ const portfolioData = {
     {
       title: "Intermediate",
       company: "Kendriya Vidyalaya No.1 A.F.S",
-      period: "2020 - 2022", 
+      period: "2021 - 2022", 
       description: "Chakeri, Kanpur, Uttar Pradesh",
       color: "#32cd32"
     },
     {
       title: "High School",
       company: "Kendriya Vidyalaya No.1 A.F.S",
-      period: "2020 - 2022", 
+      period: "2019 - 2020", 
       description: "Chakeri, Kanpur, Uttar Pradesh",
       color: "#32cd32"
     }
